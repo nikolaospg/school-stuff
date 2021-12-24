@@ -15,7 +15,7 @@ In the first, we use Newton's and Kirchhoff's Laws to create Linear regression M
 In the second, we get some State space models of LTI systems and by using continuous time Gradient Descent and Lyapunov (Parallel and Series-Parallel) based estimation methods we achieve online parameter estimation.  
 ## Fuzzy Systems (Spring 2021)
 Includes two exercises for the Computational Intelligence Course.  
-In the first after designing a classical PID controller, I use Mamdani FIS to create an FZ-PI controller.  
+In the first after designing a classical PID controller, I use a Mamdani FIS to create an FZ-PI controller.  
 In the second one I use an ANFIS to solve a regression problem. I use a grid search for the optimisation of some hyperparameters, feature selection and both subtractive clustering and grid partitioning for the rule initialisation. 
 ## Theta QAM (June 2020)
 It is a simulation of a telecommunication system using [Theta QAM](https://users.auth.gr/geokarag/pdf/Theta.pdf). The scripts involve computing the BER,SER and making the appropriate plots.
