@@ -16,6 +16,8 @@ In the second, we get some State space models of LTI systems and by using contin
 ## Fuzzy Systems (Spring 2021)
 Includes two exercises for the Computational Intelligence Course.  
 In the first after designing a classical PID controller, I use a Mamdani FIS to create an FZ-PI controller.  
-In the second one I use an ANFIS to solve a regression problem. I use a grid search for the optimisation of some hyperparameters, feature selection and both subtractive clustering and grid partitioning for the rule initialisation. 
+In the second one I use an ANFIS to solve a regression problem. I use a grid search for the optimisation of some hyperparameters, feature selection and both subtractive clustering and grid partitioning for the rule initialisation.  
+## Microprocessors (April 2021)
+In this short assignment I have to create a function to efficiently calculate a hash value for a string. This project basically is string analysis using inline assembly (Cortex M4) for low level optimisation.  
 ## Theta QAM (June 2020)
 It is a simulation of a telecommunication system using [Theta QAM](https://users.auth.gr/geokarag/pdf/Theta.pdf). The scripts involve computing the BER,SER and making the appropriate plots.
