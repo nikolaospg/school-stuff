@@ -19,5 +19,9 @@ In the first after designing a classical PID controller, I use a Mamdani FIS to 
 In the second one I use an ANFIS to solve a regression problem. I use a grid search for the optimisation of some hyperparameters, feature selection and both subtractive clustering and grid partitioning for the rule initialisation.  
 ## Microprocessors (April 2021)
 In this short assignment I have to create a function to efficiently calculate a hash value for a string. This project basically is string analysis using inline assembly (Cortex M4) for low level optimisation.  
+## Signal Processing Techniques (Spring 2021)  
+By following the [Higher Order Statistics](https://labcit.ligo.caltech.edu/~rana/mat/HOSA/HOSA.PDF) Signal analysis techniques , I present two exercises.  
+In the first we examine the methods for the power spectrum and higher order spectrum estimation, and by using plots we can see the existence of quadratic phase coupling.  
+In the second, we get a signal which is the output of an LTI system with a Non gaussian noice input. We use a formula  studied by George Giannakis which can model the system creating the timeseries by using an MA equation (only works for non gaussian processes but offers robustness to gaussian noise).  
 ## Theta QAM (June 2020)
 It is a simulation of a telecommunication system using [Theta QAM](https://users.auth.gr/geokarag/pdf/Theta.pdf). The scripts involve computing the BER,SER and making the appropriate plots.
