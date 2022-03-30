@@ -24,15 +24,16 @@ By following the [Higher Order Statistics](https://labcit.ligo.caltech.edu/~rana
 In the first we examine the methods for the power spectrum and higher order spectrum estimation, and by using plots we can see the existence of quadratic phase coupling.  
 In the second, we get a signal which is the output of an LTI system with a Non gaussian noice input. We use [a formula](https://ieeexplore.ieee.org/document/1458151)  studied by George Giannakis which can model the system creating the timeseries by using an MA equation (only works for non gaussian processes but offers robustness to gaussian noise).  
 ## Neural Networks (Autumn 2021)
-Two small projects are presented here, covering some basic concepts of neural networks. 
-In the first one, I use keras to solve the multiclass problem of the MNIST dataset. After some basic testing on the hyperparameters, I use the keras tuner for hyperparameter optimisation.
+Two small projects are presented here, covering some basic concepts of neural networks.  
+In the first one, I use keras to solve the multiclass problem of the MNIST dataset. After some basic testing on the hyperparameters, I use the keras tuner for hyperparameter optimisation.  
 In the second one I solve [a regression problem](https://www.kaggle.com/rodolfomendes/abalone-dataset). After preprocessing, I use linear and polynomial (quadratic) regression. I continue by implementing an RBF Network and using L1/L2 regularisation for the output neuron. I finish by implementing an exhaustive grid search on the number of centers and the regularisation parameter.
 
 ## Optimisation Techniques (Autumn 2021)
-In the first exercise I study some techniques used for the optimisation of functions defined by scalar variables. I implement and apply the Bisection Method (with and without the use of derivatives), the Golden Section Method as well as the Fibonacci Method. 
+In the first exercise I study some techniques used for the optimisation of functions defined by scalar variables. I implement and apply the Bisection Method (with and without the use of derivatives), the Golden Section Method as well as the Fibonacci Method.  
 In the second exercise I study techniques based on gradient descent. I implement and apply the Steepest Descent Method, the Newton Method, the Levenberg–Marquardt Method for the choice of the direction for change, and the Armijo Method, a Line Search Method and a Constant Gamma Method for the choice of the 
-gamma parameter.
-In the third exercise I use the projection method to apply the gradient descent principles and solve a constrained optimisation problem.
+gamma parameter.  
+In the third exercise I use the projection method to apply the gradient descent principles and solve a constrained optimisation problem.  
+
 In the project, I have to train an RBF Network to solve a regression problem. The network is required to be as simple as possible, and must not have more than 15 RBF nodes. At first I tackle the problem using a classical Kmeans/least squares technique and then I implement a genetic algorithm, to manage to attain an optimal solution for the tuning of the parameters of this minimal network. 
 
 ## Network Science (Jan 2021)
