@@ -24,4 +24,4 @@ By following the [Higher Order Statistics](https://labcit.ligo.caltech.edu/~rana
 In the first we examine the methods for the power spectrum and higher order spectrum estimation, and by using plots we can see the existence of quadratic phase coupling.  
 In the second, we get a signal which is the output of an LTI system with a Non gaussian noice input. We use [a formula](https://ieeexplore.ieee.org/document/1458151)  studied by George Giannakis which can model the system creating the timeseries by using an MA equation (only works for non gaussian processes but offers robustness to gaussian noise).  
 ## Theta QAM (June 2020)
-It is a simulation of a telecommunication system using [Theta QAM](https://users.auth.gr/geokarag/pdf/Theta.pdf). The scripts involve computing the BER,SER and making the appropriate plots.
+It is a simulation of a telecommunication system using [Theta QAM](https://ieeexplore.ieee.org/document/5439302). The scripts involve computing the BER,SER and making the appropriate plots.
