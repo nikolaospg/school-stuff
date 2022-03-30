@@ -36,7 +36,7 @@ In the third exercise I use the projection method to apply the gradient descent 
 
 In the project, I have to train an RBF Network to solve a regression problem. The network is required to be as simple as possible, and must not have more than 15 RBF nodes. At first I tackle the problem using a classical Kmeans/least squares technique and then I implement a genetic algorithm, to manage to attain an optimal solution for the tuning of the parameters of this minimal network. 
 
-## Network Science (Jan 2021)
+## Network Science (Jan 2022)
 In this assignment, I have to implement [this algorithm](https://arxiv.org/abs/0903.2181) to solve a problem regarding the detection of overlapping communities in networks. I use NetworkX, mainly the [Louvain](https://networkx.org/documentation/latest/reference/algorithms/generated/networkx.algorithms.community.louvain.louvain_communities.html#networkx.algorithms.community.louvain.louvain_communities) method to optimise the modularity, which is a step I have to do to continue with the rest of the implementation. Finally I test the algorithm on a couple of datasets. 
 ## Theta QAM (June 2020)
 It is a simulation of a telecommunication system using [Theta QAM](https://ieeexplore.ieee.org/document/5439302). The scripts involve computing the BER,SER and making the appropriate plots.
